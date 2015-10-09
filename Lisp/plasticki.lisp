@@ -27,6 +27,7 @@
 		 (subseq rev-sub 1)
 		 (subseq rev-sub 0 1))))
 
+
 ;;; Problem 2
 (defun rotate (word n)
   "rotates a string n characters to the left"
@@ -49,3 +50,20 @@
 		     (subseq word 1)
 		     (subseq word 0 1)
 		     "ay"))))
+
+
+(capi:display-message "The sum of ~a and ~a is ~a." 3 4 (+ 3 4))
+
+(capi:prompt-for-string "Think of an animal:")
+
+(capi:prompt-for-number "How many legs does it have:")
+
+(capi:prompt-for-confirmation "Are you hungry?")
+
+(capi:prompt-with-list
+ '("red" "blue" "green" "pink")
+ "What's your favorite colour?")
+
+(dolist (i '(2 3 5 7 11))
+  (print (* i 2)))
+
