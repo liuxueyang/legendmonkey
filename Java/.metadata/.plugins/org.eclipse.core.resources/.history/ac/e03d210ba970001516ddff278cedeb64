@@ -1,0 +1,10 @@
+
+public class HelloWorld {
+	
+	public static void main(String[] args)
+	{
+		System.out.println("Hello, world...");
+		String ruler1 = " 1 ";
+		System.out.println(ruler1);
+	}
+}
