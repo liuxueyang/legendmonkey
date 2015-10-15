@@ -1,0 +1,15 @@
+#!/usr/bin/perl
+
+$\ = $/;
+
+while (<>) {
+    $_ = <>;
+    chomp;
+    s/ //g;
+    s/00+//g;
+    print;
+    s/0$//;
+    s/^0//;
+    print;
+    
+}

@@ -1,10 +1,7 @@
-#!/usr/bin/perl -wn
+#!/usr/bin/perl -w
 
-#while (<>)
-#{
-@temp = split / /;
-if ($temp[1] !~ /cell1/) {
-    $sum0 += $temp[1];
-    print "$sum0\n";
-}
-#}
+($n, $m) = @ARGV;
+
+print "n = $n, m = $m\n";
+
+
